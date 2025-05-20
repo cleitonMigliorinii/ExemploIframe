@@ -10,13 +10,19 @@
     <main style="display: flex;">
     <div>
 
-        <div style="background-color:blue; width: 200px; height: 200px; border: 1px solid black;">
+        <div onclick="mudar('atividade01/atividade01.html')" style="background-color:blue; width: 200px; height: 200px; border: 1px solid black;">
             <h3>Atividade 1</h3>
+        </div>
+
+         <div onclick="mudar('atividade02/atividade02.html')" style="background-color:blue; width: 200px; height: 200px; border: 1px solid black;">
+            <h3>Atividade 2</h3>
         </div>
 
     </div>
 
-    <iframe src="atividade01/atividade01.html" width="800px" height="500"></iframe>
+    <iframe id="tela"  width="800px" height="500"></iframe>
     </main>
+
+    <script src="scripts.js"> </script>
 </body>
 </html>
